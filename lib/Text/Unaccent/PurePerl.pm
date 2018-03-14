@@ -114,7 +114,7 @@ our @EXPORT = qw(
                );
 our @EXPORT_OK = qw();
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 # These three are only included for compatibility with Text::Unaccent. They
 # have no effect on the behaviour of this module.
