@@ -1,5 +1,9 @@
 Revision history for Perl extension Text::Unaccent::PurePerl.
 
+0.06
+
+    * Remove file headers with author information.
+
 0.05
 
     * Added "=encoding utf8" to the POD.

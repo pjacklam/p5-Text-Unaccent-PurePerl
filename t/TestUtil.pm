@@ -1,9 +1,4 @@
 # -*- mode: perl; coding: utf-8-unix; -*-
-#
-# Author:      Peter John Acklam
-# Time-stamp:  2013-03-01 13:37:53 +00:00
-# E-mail:      pjacklam@online.no
-# URL:         http://home.online.no/~pjacklam
 
 package TestUtil;
 
