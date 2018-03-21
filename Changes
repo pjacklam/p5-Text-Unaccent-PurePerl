@@ -1,50 +1,51 @@
-Revision history for Perl extension Text::Unaccent::PurePerl.
-
 0.06 2018-03-15
 
-    * Increment version number.
+ * Format CHANGES according to CPAN::Changes::Spec. Add test file
+   t/release-cpan-changes.t.
 
-    * Reformat dates in Changes file.
+ * Increment version number.
 
-    * Remove file headers with author information.
+ * Reformat dates in Changes file.
+
+ * Remove file headers with author information.
 
 0.05 2013-03-02
 
-    * Added "=encoding utf8" to the POD.
+ * Added "=encoding utf8" to the POD.
 
-    * Fixed an error in the documentation.
+ * Fixed an error in the documentation.
 
-    * Added more documentation.
+ * Added more documentation.
 
-    * Added more comments in the code.
+ * Added more comments in the code.
 
 0.04 2008-04-24
 
-    * Changed syntax for faster loop.
+ * Changed syntax for faster loop.
 
-    * Switched to UTF-8 in module file, since both CPAN and 'pod2html' use the
-      UTF-8 encoding for HTML files.
+ * Switched to UTF-8 in module file, since both CPAN and 'pod2html' use the
+   UTF-8 encoding for HTML files.
 
-    * Giving up support for Perl < 5.8, since UTF-8 support is rotten.
+ * Giving up support for Perl < 5.8, since UTF-8 support is rotten.
 
-    * Better user feedback during signature testing.
+ * Better user feedback during signature testing.
 
 0.03 2008-04-23
 
-    * Modified nice_string() function in test scripts to become compatible with
-      Perl < 5.8 (although Perl >= 5.6 is required).
+ * Modified nice_string() function in test scripts to become compatible with
+   Perl < 5.8 (although Perl >= 5.6 is required).
 
-    * Included code testing the utf8 flag of strings. This code is only run under
-      Perl >= 5.8.
+ * Included code testing the utf8 flag of strings. This code is only run under
+   Perl >= 5.8.
 
-    * Included signature testing. This requires that the TEST_SIGNATURE environment
-      variable is set.
+ * Included signature testing. This requires that the TEST_SIGNATURE environment
+   variable is set.
 
 0.02 2008-04-21
 
-    * Removed stuff accidentally left over from development. This stuff required
-      the Text::Unaccent module.
+ * Removed stuff accidentally left over from development. This stuff required
+   the Text::Unaccent module.
 
 0.01 2008-04-04
 
-    * First version, released on an unsuspecting world.
+ * First version, released on an unsuspecting world.
